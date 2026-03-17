@@ -1,0 +1,364 @@
+{
+    "key": "group_5afb0fff84dfd",
+    "title": "Sessions",
+    "fields": [
+        {
+            "key": "field_607f1e802c00a",
+            "label": "Class Open",
+            "name": "class_open",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Open": "Open",
+                "Full": "Full"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "Open",
+            "layout": "vertical",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_6302224a9597d",
+            "label": "Classroom",
+            "name": "classroom",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Building Room#",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5afb1046229a2",
+            "label": "Experience",
+            "name": "experience",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "All Levels": "All Levels",
+                "Beginner": "Beginner",
+                "Intermediate": "Intermediate",
+                "Advanced": "Advanced"
+            },
+            "allow_custom": 0,
+            "default_value": [],
+            "layout": "vertical",
+            "toggle": 0,
+            "return_format": "value",
+            "save_custom": 0,
+            "custom_choice_button_text": "Add new choice"
+        },
+        {
+            "key": "field_5fff5499524ea",
+            "label": "Class Length",
+            "name": "class_length",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "Two-hour, One-day, Two-day",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "choices": {
+                "Two and a half-day Workshop": "Two and a half-day Workshop",
+                "One-hour Lecture": "One-hour Lecture",
+                "Two-hour Class": "Two-hour Class",
+                "Three-hour Class": "Three-hour Class",
+                "One-day Class": "One-day Class",
+                "Two-day Class": "Two-day Class"
+            },
+            "default_value": "",
+            "return_format": "value",
+            "allow_null": 1,
+            "other_choice": 0,
+            "layout": "vertical",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_6004c0ce20f41",
+            "label": "Day",
+            "name": "day",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "0all": "Friday - Sunday",
+                "1thurs": "Thursday",
+                "2fri": "Friday",
+                "3sat": "Saturday",
+                "4sun": "Sunday"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "label",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_6004c0fe20f42",
+            "label": "Time",
+            "name": "time",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "0full": "All Day",
+                "1morn": "Morning",
+                "2lunch": "Lunchtime",
+                "3after": "Afternoon",
+                "4late": "Late Afternoon",
+                "5evening": "Evening"
+            },
+            "allow_null": 1,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "label",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_60186ab8d3932",
+            "label": "Class Type",
+            "name": "class_type",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "Hands-on, Included, Rigid Heddle, Round Robin, Lecture, Webinar",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Hands-on": "Hands-on",
+                "Included in Conference Pass": "Included in Conference Pass",
+                "Rigid Heddle": "Rigid Heddle",
+                "Round Robin": "Round Robin",
+                "Lecture": "Lecture",
+                "Webinar": "Webinar"
+            },
+            "allow_custom": 0,
+            "default_value": [],
+            "layout": "vertical",
+            "toggle": 0,
+            "return_format": "value",
+            "save_custom": 0,
+            "custom_choice_button_text": "Add new choice"
+        },
+        {
+            "key": "field_5e8fa3b88ea36",
+            "label": "Max # Students",
+            "name": "max_students",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": 0,
+            "max": 500,
+            "step": ""
+        },
+        {
+            "key": "field_5afb104e229a3",
+            "label": "Materials fee",
+            "name": "materials_fee",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "$",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_5afb106d229a4",
+            "label": "Fee Covers",
+            "name": "fee_covers",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5afb1083229a5",
+            "label": "Student Supplies",
+            "name": "student_supplies",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
+            "key": "field_62a7b0df3e33a",
+            "label": "Equipment",
+            "name": "equipment",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "choices": {
+                "No equipment, no supplies": "No equipment, no supplies",
+                "No equipment, check supplies": "No equipment, check supplies",
+                "2-shaft Loom": "2-shaft Loom",
+                "4-shaft Loom": "4-shaft Loom",
+                "6-shaft Loom": "6-shaft Loom",
+                "8-shaft Loom": "8-shaft Loom",
+                "Pre-warped": "Pre-warped",
+                "Rigid Heddle Loom": "Rigid Heddle Loom",
+                "Tapestry Loom": "Tapestry Loom",
+                "Inkle Loom": "Inkle Loom",
+                "Warping Board": "Warping Board",
+                "Spinning Wheel": "Spinning Wheel",
+                "Spindle": "Spindle",
+                "Lazy Kate": "Lazy Kate",
+                "Fiber Prep Tools": "Fiber Prep Tools",
+                "Sewing Machine": "Sewing Machine",
+                "Sprang Frame": "Sprang Frame",
+                "See Website": "See Website"
+            },
+            "default_value": [],
+            "return_format": "value",
+            "allow_custom": 0,
+            "allow_in_bindings": 1,
+            "layout": "vertical",
+            "toggle": 0,
+            "save_custom": 0,
+            "custom_choice_button_text": "Add new choice"
+        },
+        {
+            "key": "field_62a7a655a116b",
+            "label": "Homework",
+            "name": "homework",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 0,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "sessions"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "display_title": "",
+    "modified": 1773696265
+}
