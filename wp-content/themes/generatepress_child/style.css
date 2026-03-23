@@ -689,6 +689,137 @@ input[type=email], input[type=number], input[type=password], input[type=search],
 	margin-bottom: 0;
 }
 
+/* ===== STATE GROUP ===== */
+.state-group {
+    margin-bottom: 4rem;
+}
+
+.state-group__header {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 3px solid #333;
+}
+
+.state-group__title {
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+.state-group__count {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+/* ===== GRID ===== */
+.state-group__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+}
+
+/* ===== GUILD CARD ===== */
+.guild-card {
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    display: flex;
+    flex-direction: column;
+}
+
+.guild-card__header {
+    background: #f7f7f7;
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid #eee;
+}
+
+.guild-card__title {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.guild-card__body {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* ===== META LIST ===== */
+.guild-card__meta-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.guild-card__meta-list li {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    align-items: flex-start;
+}
+
+.meta-label {
+    min-width: 100px;
+    color: #666;
+    flex-shrink: 0;
+}
+
+.meta-value {
+    color: #333;
+}
+
+.meta-value a {
+    color: inherit;
+    text-decoration: underline;
+    word-break: break-all;
+}
+
+/* ===== SOCIAL LINKS ===== */
+.guild-card__socials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.social-link {
+    display: inline-block;
+    padding: 0.3rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.social-link--facebook  { background: #1877f2; }
+.social-link--ravelry   { background: #e91c7e; }
+.social-link--twitter   { background: #1da1f2; }
+.social-link--pinterest { background: #e60023; }
+.social-link--instagram { background: #c13584; }
+.social-link--other     { background: #555; }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+    .state-group__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .meta-label {
+        min-width: 80px;
+    }
+}
+
+/** Guilds Gap **/
+
+
 
 
 
