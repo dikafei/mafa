@@ -860,7 +860,20 @@ body.post-type-archive-guilds .site-main {
 }
 
 .tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container {
-	padding: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+/** Hide Header in Single TEC **/
+.single-tribe_events .page-hero {
+	display: none;
+}
+
+/** Add Padding Top in Single TEC **/
+.tribe-events-single {
+	padding-top: 50px;
 }
 
 
