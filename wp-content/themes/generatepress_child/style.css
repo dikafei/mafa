@@ -67,6 +67,16 @@
  * ** Guilds Title
  * ** Guilds Items
  * ** Guilds Font & Margin
+ * ** Guilds Content
+ * 
+ * THE EVENTS CALENDAR
+ * ** TEC Disable Description
+ * ** TEC Width & Padding
+ * 
+ * VENDORS
+ * ** Terms List Style
+ * ** Vendor Thumbnail Image
+ * ** Vendor Content
  * 
  * SESSIONS
  * 
@@ -715,8 +725,8 @@ input[type=email], input[type=number], input[type=password], input[type=search],
 
 /** Guilds Grid **/
 .state-group__grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    display: flex;
+	flex-direction: column;
     gap: 1.5rem;
 }
 
@@ -823,10 +833,79 @@ body.post-type-archive-guilds .site-main {
 }
 
 /** Guilds Sidebar **/
-.page-id-20 .site-content .sidebar .inside-right-sidebar {
+.post-type-archive-guilds .site-content .sidebar .inside-right-sidebar {
 	position: sticky;
 	top: 20px;
 }
+
+/** Guilds Content **/
+.guilds-content {
+	margin-bottom: 30px;
+}
+
+
+
+
+
+/* THE EVENTS CALENDAR */
+
+/** TEC Disable Description **/
+.tribe-events-calendar-list__event-details .tribe-events-calendar-list__event-description p {
+    display: none;
+}
+
+/** TEC Width & Padding **/
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-calendar-list__event-details {
+	width: 100%;
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container {
+	padding: 0;
+}
+
+
+
+
+
+/* VENDORS */
+
+/** Terms List Style **/
+.vendor-terms-list {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 6px;
+}
+
+.vendor-terms-list a {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 9px;
+	padding-right: 9px;
+	border: 1px solid var(--base);
+	border-radius: 10px;
+	text-decoration: none;
+	color: var(--contrast-2);
+	background: var(--base-3);
+}
+
+.vendor-terms-list a:hover {
+	border-color: var(--contrast);
+}
+
+/** Vendor Thumbnail Image **/
+.vendor-thumbnail-image {
+	border-radius: 10px;
+}
+
+/** Vendor Content **/
+.vendor-content {
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
 
 
 
