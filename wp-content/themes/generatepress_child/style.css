@@ -662,7 +662,7 @@ input[type=email], input[type=number], input[type=password], input[type=search],
 /** Guilds Grid Template **/
 .guilds-grid-template {
 	display: grid;
-	grid-template-columns: 200px 1fr;
+	grid-template-columns: 180px 1fr;
 	margin-bottom: 20px;
 }
 

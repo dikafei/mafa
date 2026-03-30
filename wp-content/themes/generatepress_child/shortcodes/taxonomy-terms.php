@@ -381,6 +381,8 @@ add_shortcode('guilds_by_states', function() {
             'post_type'      => 'guilds',
             'posts_per_page' => -1,
             'no_found_rows'  => true,
+			'orderby'        => 'title',
+			'order'          => 'ASC',
             'tax_query'      => [[
                 'taxonomy' => 'state',
                 'field'    => 'slug',
@@ -395,7 +397,6 @@ add_shortcode('guilds_by_states', function() {
 
             <div class="state-group__header">
                 <h2 class="state-group__title"><?php echo esc_html($state->name); ?></h2>
-                <span class="state-group__count"><?php echo $state->count; ?> guild</span>
             </div>
 
             <div class="state-group__grid">
