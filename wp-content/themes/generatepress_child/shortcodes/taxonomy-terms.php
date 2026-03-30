@@ -399,25 +399,7 @@ add_shortcode('guilds_by_states', function() {
             </div>
 
             <div class="state-group__grid">
-                <?php while ($query->have_posts()) : $query->the_post();
-
-                    $website         = get_field('website');
-                    $email           = get_field('email');
-                    $date_time       = get_field('date_time');
-                    $time            = get_field('time');
-                    $location        = get_field('location');
-                    $hybrid_meetings = get_field('hybrid_meetings');
-                    $mafa_rep        = get_field('mafa_rep');
-                    $rep_email       = get_field('rep_email');
-                    $more_info       = get_field('more_info');
-                    $facebook        = get_field('facebook');
-                    $ravelry         = get_field('ravelry');
-                    $twitter         = get_field('twitter');
-                    $pinterest       = get_field('pinterest');
-                    $instagram       = get_field('instagram');
-                    $other_social    = get_field('other_social_media');
-
-                ?>
+                <?php while ($query->have_posts()) : $query->the_post(); ?>
 
                     <article class="guild-card" id="guild-<?php the_ID(); ?>">
 
