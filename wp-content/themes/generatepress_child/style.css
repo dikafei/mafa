@@ -498,11 +498,11 @@ table.tablepress tbody tr td {
 	position: relative;
 }
 
-.sidebar .widget .wp-block-group__inner-container h2 {
+.sidebar .widget h2 {
 	margin-bottom: 30px;
 }
 
-.sidebar .widget .wp-block-group__inner-container h2::after {
+.sidebar .widget h2.wp-block-heading::after {
 	content: '';
 	position: absolute;
 	width: 30px;
@@ -843,6 +843,11 @@ body.post-type-archive-guilds .site-main {
 	margin-bottom: 30px;
 }
 
+/** Guilds Sidebar **/
+.archive .sidebar .find-guild-state {
+	position: relative;
+}
+
 
 
 
@@ -874,6 +879,17 @@ body.post-type-archive-guilds .site-main {
 /** Add Padding Top in Single TEC **/
 .tribe-events-single {
 	padding-top: 50px;
+}
+
+
+
+
+
+/* SAMPLES SINGLE */
+
+/** Remove Page Title on Single Samples **/
+.single-samples .page-hero .page-title {
+	display: none;
 }
 
 
@@ -946,6 +962,16 @@ body.post-type-archive-guilds .site-main {
 
 .gb-element-d40a45a7 .gb-text {
 	margin-bottom: 0;
+}
+
+/** Remove Page Title on Single Sessions **/
+.single-sessions .page-hero .page-title {
+	display: none;
+}
+
+/** Sessions Sidebar **/
+.archive .sidebar .sessions-sidebar {
+	position: relative;
 }
 
 

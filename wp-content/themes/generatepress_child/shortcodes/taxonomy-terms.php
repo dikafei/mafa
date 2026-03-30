@@ -460,3 +460,15 @@ add_shortcode('guilds_state_links', function() {
     <?php
     return ob_get_clean();
 });
+
+
+// SESSIONS PAGINATION
+
+add_action( 'pre_get_posts', function( $query ) {
+    if ( is_admin() || ! $query->is_main_query() ) {
+        return;
+    }
+    if ( is_post_type_archive( 'sessions' ) ) {
+        $query->set( 'posts_per_page', -1 );
+    }
+} );
